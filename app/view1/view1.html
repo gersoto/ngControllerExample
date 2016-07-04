@@ -1,1 +1,12 @@
 <p>This is the partial for view 1.</p>
+
+<form name="myForm">
+<input long-number type="text" name="myInput" ng-model="myInput">
+</form>
+
+<p>The input's valid state is:</p>
+<h1>{{myForm.myInput.$valid}}</h1>
+
+<p>The value recorded is: {{ myInput }}</p>
+<p>The value valid status is: {{ myInput }}</p>
+
